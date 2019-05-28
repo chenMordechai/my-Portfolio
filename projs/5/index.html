@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Touch Numbers</title>
+</head>
+<body onload="init()">
+        <h1>Touch Numbers</h1>
+        <table class="level"></div>
+              <tr><th colspan="3">chose your level:</th></tr>
+              <tr><td onclick="choseLevel(16)">easy</td>
+                <td onclick="choseLevel(25)">hard</td>
+                <td onclick="choseLevel(36)">extra</td>
+            </tr>
+        </table>
+        <div class="data time">Game Time:</div>
+        <div class="data num">Next Number: </div>
+        <table border="3" cellpadding="30">
+                <tbody class="board"></tbody>
+            </table>
+
+
+
+    <script src="js/main.js"></script>
+</body>

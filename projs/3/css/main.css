@@ -1,0 +1,104 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    margin: 20px 0 auto;
+}
+h3 {
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+table{
+    margin: 50px auto;
+ border-radius: 10px;
+}
+
+.board {
+    background-color: grey;
+    align-content: center;
+    margin: 0 auto;
+  
+}
+
+.warpper {
+ width: 330px;
+ margin: 0 auto;
+}
+
+.cell {
+    height: 22px;
+    width: 22px;
+    border-radius: 10px;
+}
+
+.cell:hover {
+    cursor: pointer;
+    background-color: ivory;
+}
+
+.selected {
+    background-color: rgb(250, 161, 128);
+}
+
+.data {
+    height: 30px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px
+}
+
+
+
+.start {
+    display: none;
+    background-color: rgb(1, 122, 55);
+    margin: auto;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px
+
+}
+.start:hover{
+    background-color: rgb(28, 218, 113);
+    cursor: pointer;
+}
+.status {
+    color: rgb(255, 247, 232);
+    font-size: 30px;
+    margin: 20px 0 auto
+}
+.level {
+    background-color: rgb(1, 122, 55);
+    margin: auto;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+.level:hover{
+    background-color: rgb(28, 218, 113);
+    cursor: pointer;
+}
+
+.smile {
+    width: 5%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+.smile:hover {
+    cursor: pointer;
+    width: 6%;
+    transition: .2s;
+}

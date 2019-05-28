@@ -1,0 +1,44 @@
+
+body{
+    text-align: center;
+    background-image: url(../img/background.jpg)
+    
+}
+h1{
+    color: green;
+}
+
+
+.choose{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(226, 230, 17);
+   margin: 5px auto;
+   text-align: center;
+   border-radius: 10px;
+
+}
+.choose:hover{
+    background-color: rgb(243, 59, 59);
+    cursor: pointer;
+    transition: .6s;
+}
+
+.button{
+background-color: aqua;
+border-radius: 10px;
+height: 30px;
+width: 50px;
+margin: 20px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    height: 35px;
+width: 55px;
+}
+img{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+}

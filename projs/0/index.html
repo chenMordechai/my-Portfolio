@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>books shop</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to my bookstore!</h1>
+    </div>
+    <div class="adding-books">
+        <input class="input name" type="text" placeholder="Book Name">
+        <input class="input price" type="text" placeholder="Book Price"></input>
+        <button type="button" class="btn btn-warning" onclick="readAndAddNewBook()" class="add-book">add book</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Book Details:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+                <th scope="col">Rate</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/book-main.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/util-service.js"></script>
+</body>
+
+</html>

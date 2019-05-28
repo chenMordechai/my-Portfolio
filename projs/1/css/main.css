@@ -1,0 +1,51 @@
+
+body{
+    background-color: lightgrey;
+}
+
+.log-in{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(88, 88, 165);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.wrapper{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(88, 88, 165);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
+.status {
+   text-align: center;
+}
+
+input{
+    height: 23px;
+    border-radius: 5px;
+    
+}
+  
+
+.logIn{
+    display: block;
+    font-size: 20px;
+    margin: 7px 7px;
+}
+.logIn:hover{
+    cursor: pointer;
+}

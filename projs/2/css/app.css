@@ -1,0 +1,40 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #73AEDB;
+  text-align: center;
+  color:#fcf064;
+  font-size: 3em;
+}
+
+footer {
+  background-color:  black;
+  text-align: center;
+  color:rgb(221, 41, 17);
+}
+
+main { 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.jumbotron{
+  display: none;
+}
+
+.restart{
+  display: none;
+}
+
+.btn-success{
+  background-color: red
+}

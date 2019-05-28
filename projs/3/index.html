@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spring proj</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body onload="init()">
+
+    <h1>Minesweeper</h1>
+    <h3>chose your level: </h3>
+    <button class="level easy" onclick="choseLevel(4,2)">easy</button>
+    <button class="level hard" onclick="choseLevel(8,12)">hard</button>
+    <button class="level extra" onclick="choseLevel(12,30)">extra</button>
+
+    <div> <img class="smile" onclick="restart()" src="" alt=""></div>
+
+    <div class="warpper">
+        <div class="data lives"> lives: </div>
+        <div class="data time "> timer: 0</div>
+        <div class="data flag"> </div>
+    </div>
+
+    <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+
+    <link rel="stylesheet" href="">
+
+    <p class="status"> </p>
+    <button onclick="restart()" class="start">restart</button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+h1{
+    margin: 10px ;
+    text-align: center;
+    background-color: rgb(115, 213, 226);
+    font-family: unset;
+    
+}
+.adding-books{
+    margin: 30px;
+    text-align: center;
+    
+}
+.input{
+    border-radius: 6px;
+}
+
+.modal-body{
+    text-align: center
+}
