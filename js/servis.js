@@ -5,12 +5,12 @@ var gProjs;
 
 
 
-// function getProjById(projId) {
-//     gProjs.find(function (proj) {
-//         return projId === proj.id
-//     })
+function getProjById(id) {
+    gProjs.find(function (proj) {
+        return proj.id ===  id
+    })
     
-// }
+}
 
 // function getProjIdxById(projId) {
 //     gProjs.findIndex(function (proj) {

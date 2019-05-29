@@ -9,14 +9,13 @@ function initPage(){
 
 
 function submit(){
-    var email = $('.input-mail').val()
+    // var email = $('.input-mail').val()
     var subject = $('.input-subject').val()
     var message = $('.input-text').val()
     // console.log(email , subject , message)
     window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=chen100030@gmail.com.com&su=${subject}&body=${message}&.com&tf=1`)
+
 }
-
-
 
 
 
@@ -25,6 +24,8 @@ function submit(){
 function renderModal(projId){
 var projs = getProjs()
 var currProj =projs[projId]
+// var currProj = getProjById(projId)
+// console.log(currProj)
 var htmlStr = `<div  class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
 <div class="modal-dialog">
   <div class="modal-content">
