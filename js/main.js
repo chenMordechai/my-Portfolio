@@ -20,7 +20,6 @@ function submit(){
 
 
 
-
 function renderModal(projId){
 var projs = getProjs()
 var currProj =projs[projId]
